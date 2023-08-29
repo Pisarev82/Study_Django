@@ -1,0 +1,10 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\apps.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150
+_2_app def rand100 38
+"GET /2/rand100/ HTTP/1.1" 200 2
+_2_app def rand100 47
+"GET /2/rand100/ HTTP/1.1" 200 2
+Watching for file changes with StatReloader
