@@ -1,0 +1,22 @@
+{% extends 'online_store/base.html' %}
+
+{% block content %}
+    <h1>Заказанные товары: {{ client.name }}</h1>
+
+    <form method="get">
+        <input type="submit" name="period" value="7" />
+        <input type="submit" name="period" value="30" />
+        <input type="submit" name="period" value="365" />
+    </form>
+
+    {% if items %}
+        <h2>Список товаров за последние {{ selected_period }} дней:</h2>
+        <ul>
+            {% for item in items %}
+                <li>{{ item.product.name }}, категория: {{ item.product.category }}, дата заказа: {{ item.order.date_ordered }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>В данный период клиент не заказывал товаров.</p>
+    {% endif %}
+{% endblock %}

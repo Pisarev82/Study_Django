@@ -1430,3 +1430,453 @@ D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py change
 Watching for file changes with StatReloader
 D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 7, in get_orders
+    return render(request, 'online_store/orders.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 736, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 279, in get_select
+    related_klass_infos = self.get_related_selections(select, select_mask)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 1367, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'orderItem'. Choices are: customer
+"GET /online_store/orders/2 HTTP/1.1" 500 190752
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.filter(customer__pk=client_id, ).select_related('order')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'customer' into field. Choices are: id, order, order_id, price, product, product_id, quantity
+"GET /online_store/orders/2 HTTP/1.1" 500 114052
+Internal Server Error: /online_store/orders/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.filter(order__customer__pk=client_id, ).select_related('order')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'customer' into field. Choices are: id, order, order_id, price, product, product_id, quantity
+"GET /online_store/orders/2 HTTP/1.1" 500 114066
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/2 HTTP/1.1" 200 1287
+"GET /online_store/orders/2 HTTP/1.1" 200 1236
+"GET /online_store/orders/2 HTTP/1.1" 200 1287
+"GET /online_store/orders/2 HTTP/1.1" 200 1595
+"GET /online_store/orders/2 HTTP/1.1" 200 1595
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+Internal Server Error: /online_store/orders/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 7, in get_orders
+    return render(request, 'online_store/orders.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'OrderItem' object is not iterable
+"GET /online_store/orders/2 HTTP/1.1" 500 168962
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1303
+"GET /online_store/orders/2 HTTP/1.1" 200 1519
+"GET /online_store/orders/2 HTTP/1.1" 200 1519
+"GET /online_store/orders/2 HTTP/1.1" 200 1295
+"GET /online_store/orders/1 HTTP/1.1" 200 1307
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.select_related('order').filter(order__customer__pk=client_id, ).group_by('order')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'group_by'
+"GET /online_store/orders/1 HTTP/1.1" 500 65122
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 1246
+"GET /online_store/orders/1 HTTP/1.1" 200 1246
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 1307
+"GET /online_store/orders/1 HTTP/1.1" 200 1307
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 1307
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.select_related('order').filter(order__customer__pk=client_id, ).order_by('order_pk')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order_pk' into field. Choices are: id, order, order_id, price, product, product_id, quantity
+"GET /online_store/orders/1 HTTP/1.1" 500 81168
+Internal Server Error: /online_store/orders/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.select_related('order').filter(order__customer__pk=client_id, ).group_by('order')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order_pk' into field. Choices are: id, order, order_id, price, product, product_id, quantity
+"GET /online_store/orders/1 HTTP/1.1" 500 81162
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 5, in get_orders
+    orders = OrderItem.objects.select_related('order').filter(order__customer__pk=client_id, ).group_by('order')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'group_by'
+"GET /online_store/orders/1 HTTP/1.1" 500 65122
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 1307
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 601
+"GET /online_store/orders/1 HTTP/1.1" 200 2105
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2113
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/orders/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 20, in get_orders
+    products = orders_1.products.all()
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /online_store/orders/1 HTTP/1.1" 500 66086
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2113
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2113
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2188
+"GET /online_store/orders/1 HTTP/1.1" 200 2202
+"GET /online_store/orders/1 HTTP/1.1" 200 2144
+"GET /online_store/orders/1 HTTP/1.1" 200 2144
+"GET /online_store/orders/1 HTTP/1.1" 200 2402
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2283
+"GET /online_store/orders/1 HTTP/1.1" 200 2283
+"GET /online_store/orders/1 HTTP/1.1" 200 2282
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/orders/1 HTTP/1.1" 200 2114
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/client/1/items/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 49, in list_client_items
+    return render(request, 'myapp/client_items.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/client_items.html
+"GET /online_store/client/1/items/ HTTP/1.1" 500 81856
+Internal Server Error: /online_store/client/1/items/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 49, in list_client_items
+    return render(request, 'online_store/client.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/client_items.html
+"GET /online_store/client/1/items/ HTTP/1.1" 500 81995
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /online_store/client/1/items/ HTTP/1.1" 200 674
+"GET /online_store/client/1/items/?period=7 HTTP/1.1" 200 1609
+"GET /online_store/client/1/items/?period=30 HTTP/1.1" 200 1610
+"GET /online_store/client/1/items/?period=365 HTTP/1.1" 200 1611
+"GET /online_store/client/1/items/?period=7 HTTP/1.1" 200 1609
