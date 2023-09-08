@@ -1,0 +1,30 @@
+{% extends '_hw_1_app/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    <h1>Создатель</h1>
+    <p>Писарев Николай</p>
+    <p>Junior Django developer</p>
+    <ul>
+        <li>Now is {{ dataTime }}</li>
+        <li>You visited this site from IP {{ client_ip }}</li>
+    </ul>
+{% endblock %}
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>About</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Создатель</h1>-->
+<!--    <p>Писарев Николай</p>-->
+<!--    <p>Junior Django developer</p>-->
+<!--    <ul>-->
+<!--        <li>Now is {{ dataTime }}</li>-->
+<!--        <li>You visited this site from IP {{ client_ip }}</li>-->
+<!--    </ul>-->
+<!--</body>-->
+<!--</html>-->

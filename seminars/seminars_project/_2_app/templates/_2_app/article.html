@@ -1,0 +1,10 @@
+{% extends '_hw_1_app/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    <h1> {{ article.title }} </h1>
+    <p>{{ article.content }}</p>
+    <p>{{ article.views }}</p>
+
+{% endblock %}

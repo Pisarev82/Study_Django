@@ -1,0 +1,14 @@
+{% extends '_hw_1_app/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    {% for article in articles %}
+        {% if article.is_published %}
+            <a href="{% url 'article' article.id %}">{{ article.title }}</a>
+        {% else %}
+            <p>{{ article.title }}</p>
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}
