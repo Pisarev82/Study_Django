@@ -31,3 +31,32 @@ class Trow(models.Model):
             result[choice_result_trow[0]] += 1
         return result
 
+
+class Author(models.Model):
+    name = models.CharField(max_length=100)
+    surname = models.CharField(max_length=100)
+    email = models.EmailField()
+    biography = models.TextField()
+    birthday = models.DateTimeField()
+
+    def __str__(self):
+        return f'{self.name} + {self.surname}'
+
+
+class Article(models.Model):
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    publication_date = models.DateField(auto_now=True)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    category = models.CharField(max_length=100)
+    views = models.IntegerField(default=0)
+    is_published = models.BooleanField(default=False)
+
+
+class Comment(models.Model):
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    comment = models.TextField()
+    created_date = models.DateTimeField(auto_now_add=True)
+    modified_date = models.DateTimeField(auto_now=True)
+

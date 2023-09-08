@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'sem_1_app',
     '_2_app',
     '_hw_1_app',
+    'online_store',
 ]
 
 MIDDLEWARE = [
