@@ -2699,3 +2699,85 @@ Watching for file changes with StatReloader
 D:\dev\study\Study_Django\seminars\seminars_project\online_store\models.py changed, reloading.
 Watching for file changes with StatReloader
 D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /online_store/add_image_product.html
+"GET /online_store/add_image_product.html HTTP/1.1" 404 3384
+Not Found: /online_store/add_image_product/1
+"GET /online_store/add_image_product/1 HTTP/1.1" 404 3375
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/add_image_product/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: online_store_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 54, in add_image_product
+    product = Product.objects.filter(pk=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: online_store_product.photo
+"GET /online_store/add_image_product/1 HTTP/1.1" 500 134631
+Watching for file changes with StatReloader
+"GET /online_store/add_image_product/1 HTTP/1.1" 200 555
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+D:\dev\study\Study_Django\seminars\seminars_project\seminars_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"GET /online_store/add_image_product/1 HTTP/1.1" 200 585
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader

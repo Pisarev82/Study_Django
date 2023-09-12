@@ -3,7 +3,6 @@ from random import randint
 from django.http import HttpResponse
 import logging
 from . import forms
-
 from django.shortcuts import render
 from .models import Author, Article, Comment
 
