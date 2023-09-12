@@ -1880,3 +1880,904 @@ Watching for file changes with StatReloader
 "GET /online_store/client/1/items/?period=30 HTTP/1.1" 200 1610
 "GET /online_store/client/1/items/?period=365 HTTP/1.1" 200 1611
 "GET /online_store/client/1/items/?period=7 HTTP/1.1" 200 1609
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150
+Not Found: /_2_app/game
+"GET /_2_app/game HTTP/1.1" 404 2768
+Internal Server Error: /2/game
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_article() missing 1 required positional argument: 'article_id'
+"GET /2/game HTTP/1.1" 500 61607
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/game HTTP/1.1" 301 0
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_article() missing 1 required positional argument: 'article_id'
+"GET /2/game/ HTTP/1.1" 500 61753
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 49, in game
+    if form.is_valid():
+       ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+"GET /2/game/ HTTP/1.1" 500 65356
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 63, in game
+    return render(request, '_2_app.game.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.game.html
+"GET /2/game/ HTTP/1.1" 500 80486
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 63, in game
+    return render(request, '_2_app.game.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.game.html
+"GET /2/game/ HTTP/1.1" 500 80480
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 63, in game
+    return render(request, '_2_app.game.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.game.html
+"GET /2/game/ HTTP/1.1" 500 80480
+Internal Server Error: /2/game/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 63, in game
+    return render(request, '_2_app/game.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.game.html
+"GET /2/game/ HTTP/1.1" 500 80480
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/game/ HTTP/1.1" 200 753
+"GET /2/game/ HTTP/1.1" 200 790
+"GET /2/game/ HTTP/1.1" 200 828
+"POST /2/game/ HTTP/1.1" 200 274
+"GET /2/game/ HTTP/1.1" 200 828
+"POST /2/game/ HTTP/1.1" 200 282
+"GET /2/game/ HTTP/1.1" 200 828
+"POST /2/game/ HTTP/1.1" 200 273
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/game/ HTTP/1.1" 200 827
+"POST /2/game/ HTTP/1.1" 200 273
+"GET /2/game/ HTTP/1.1" 200 827
+"POST /2/game/ HTTP/1.1" 200 274
+"GET /2/game/ HTTP/1.1" 200 827
+"POST /2/game/ HTTP/1.1" 200 282
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/addauthor HTTP/1.1" 301 0
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 83, in addAuthor
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+                                                             ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+"GET /2/addauthor/ HTTP/1.1" 500 65099
+Not Found: /2/
+"GET /2/ HTTP/1.1" 404 3885
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 83, in addAuthor
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+                                                             ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+"GET /2/addauthor/ HTTP/1.1" 500 65099
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 83, in addAuthor
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+                                                                             ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"GET /2/addauthor/ HTTP/1.1" 500 65535
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 83, in addAuthor
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"GET /2/addauthor/ HTTP/1.1" 500 64228
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in addAuthor
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81874
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81879
+"GET /2/game/ HTTP/1.1" 200 827
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81879
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message':message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81879
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81881
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81883
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app.addauthor.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81883
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 82, in add_author
+    return render(request, '_2_app/addauthor.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: _2_app.addauthor.html
+"GET /2/addauthor/ HTTP/1.1" 500 81883
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/addauthor/ HTTP/1.1" 200 1380
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 71, in add_author
+    name = form.cleaned_data['name']
+           ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+"POST /2/addauthor/ HTTP/1.1" 500 67226
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 71, in add_author
+    name = form.cleaned_data['name']
+           ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+"POST /2/addauthor/ HTTP/1.1" 500 67226
+"GET /2/game/ HTTP/1.1" 200 827
+"POST /2/game/ HTTP/1.1" 200 274
+"GET /2/game/ HTTP/1.1" 200 827
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 71, in add_author
+    name = form.cleaned_data['name']
+           ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+"POST /2/addauthor/ HTTP/1.1" 500 67226
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1022
+"GET /2/game/ HTTP/1.1" 200 827
+"POST /2/game/ HTTP/1.1" 200 273
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/addauthor/ HTTP/1.1" 200 1395
+"POST /2/addauthor/ HTTP/1.1" 200 1513
+Internal Server Error: /2/addauthor/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'AWR5Y'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 77, in add_author
+    author.save()
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 1033, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'AWR5Y'.
+"POST /2/addauthor/ HTTP/1.1" 500 150235
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /2/addauthor/ HTTP/1.1" 200 1462
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 150
+"GET /2/addarticle HTTP/1.1" 301 0
+"GET /2/addarticle/ HTTP/1.1" 200 1801
+Internal Server Error: /2/addarticle/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 99, in add_article
+    author = Author(title=title,
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Author() got unexpected keyword arguments: 'title', 'content', 'author', 'category'
+"POST /2/addarticle/ HTTP/1.1" 500 75659
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/addarticle/
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 99, in add_article
+    author = Author(title=title,
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Author() got unexpected keyword arguments: 'title', 'content', 'author', 'category'
+"POST /2/addarticle/ HTTP/1.1" 500 75635
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /2/addarticle/ HTTP/1.1" 200 1867
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /2/article_with_comment
+"GET /2/article_with_comment HTTP/1.1" 404 4345
+Internal Server Error: /2/article_with_comment/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 113, in comment_form
+    article = Article.object.filter(pk=article_id).first(),
+              ^^^^^^^^^^^^^^
+AttributeError: type object 'Article' has no attribute 'object'
+"GET /2/article_with_comment/1 HTTP/1.1" 500 66424
+Watching for file changes with StatReloader
+Internal Server Error: /2/article_with_comment/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 132, in comment_form
+    return render(
+           ^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /2/article_with_comment/1 HTTP/1.1" 500 187919
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2768
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1729
+"GET /2/article_with_comment/2 HTTP/1.1" 200 1729
+"GET /2/article_with_comment/2 HTTP/1.1" 200 1636
+Internal Server Error: /2/article_with_comment/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 121, in comment_form
+    comment = Comment(
+              ^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Article: Article object (2)>,)": "Comment.article" must be a "Article" instance.
+"POST /2/article_with_comment/2 HTTP/1.1" 500 79077
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /2/article_with_comment/2
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py", line 121, in comment_form
+    comment = Comment(
+              ^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Article: Article object (2)>,)": "Comment.article" must be a "Article" instance.
+"POST /2/article_with_comment/2 HTTP/1.1" 500 79082
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1636
+"GET /2/article/1 HTTP/1.1" 200 455
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1636
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1636
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1636
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1809
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1809
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1784
+"GET /2/article_with_comment/1 HTTP/1.1" 200 1784
+"POST /2/article_with_comment/1 HTTP/1.1" 200 1859
+"POST /2/article_with_comment/1 HTTP/1.1" 200 1936
+"GET /2/article_with_comment/1 HTTP/1.1" 200 2108
+"GET /2/article_with_comment/1 HTTP/1.1" 200 2038
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\dev\study\Study_Django\seminars\seminars_project\_2_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /online_store/add_image_product.html
+"GET /online_store/add_image_product.html HTTP/1.1" 404 3384
+Not Found: /online_store/add_image_product/1
+"GET /online_store/add_image_product/1 HTTP/1.1" 404 3375
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /online_store/add_image_product/1
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: online_store_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py", line 54, in add_image_product
+    product = Product.objects.filter(pk=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\f134s\.virtualenvs\Study_Django-XRlrXM7B\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: online_store_product.photo
+"GET /online_store/add_image_product/1 HTTP/1.1" 500 134631
+Watching for file changes with StatReloader
+"GET /online_store/add_image_product/1 HTTP/1.1" 200 555
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 614
+D:\dev\study\Study_Django\seminars\seminars_project\seminars_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"GET /online_store/add_image_product/1 HTTP/1.1" 200 585
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+"POST /online_store/add_image_product/1 HTTP/1.1" 200 644
+D:\dev\study\Study_Django\seminars\seminars_project\online_store\views.py changed, reloading.
+Watching for file changes with StatReloader

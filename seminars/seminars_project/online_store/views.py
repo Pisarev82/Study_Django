@@ -1,3 +1,6 @@
+from django.core.files.storage import FileSystemStorage
+
+from . import forms
 from django.shortcuts import render, get_object_or_404
 from .models import *
 from datetime import datetime, timedelta
@@ -47,3 +50,19 @@ def list_client_items(request, client_id):
     }
 
     return render(request, 'online_store/client.html', context)
+
+
+def add_image_product(request, product_id):
+    product = Product.objects.filter(pk=product_id).first()
+    if request.method == 'POST':
+        form = forms.AddImageProduct(request.POST, request.FILES)
+        if form.is_valid():
+            photo = form.cleaned_data['photo']
+
+            product.photo = photo
+            product.save()
+    else:
+        form = forms.AddImageProduct()
+
+    return render(request, 'online_store/add_image_product.html', {'form': form})
+
